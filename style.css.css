@@ -1,0 +1,976 @@
+
+
+     @media screen and (max-width: 450px) {
+        body {
+          background-color: black; 
+      }
+      }
+      @media screen and (max-width: 800px) and (min-width: 700px ) {
+        body {
+          background-color: lightgreen;
+        }
+      }
+      @media screen and (min-width: 1000px) {
+        body {
+          background-color: black;
+          .container{
+            border: 1px solid  #14213d;
+            display: flex;           
+            flex-direction: row;   
+          }          
+          .conta{
+            border: 1px solid red;
+            display: flex;
+           
+            flex-direction: row;
+           }
+           .con{
+            border: 1px solid red;
+            display: flex;
+           
+            flex-direction: row;
+          }
+          .box1{
+            border: 2px solid  #14213d ;
+           height: 260px ;
+           width: 200px ;
+           background-color: blueviolet;
+         background: url('lambo.jpg') no-repeat center center/cover;
+         }
+         .box2{
+           border: 2px solid #14213d ; 
+           height: 260px ;
+           width: 200px ;
+           background-color:#14213d;
+         color: white;
+         }
+         .box3{
+          border: 2px solid  #ef476f;
+         height: 260px ;
+         width: 200px ;
+         background-color: blueviolet;
+         margin-left: 20px ;
+        background: url('ferari.jpg') no-repeat center center/cover;
+        }
+        .box4{
+         border: 2px solid #ef476f ; 
+         height: 260px ;
+         width: 200px ;
+         background-color:#ef476f;
+        color: white;
+        }
+        .box5{
+          border: 1px solid  #ef476f;
+         height: 260px ;
+         width: 200px ;
+         background-color: blueviolet;
+        background: url('car-8328373_640.jpg') no-repeat center center/cover;
+        margin-top: 2px;
+        margin-left: 30px ;
+        }
+        .box6{
+         border: 1px solid #7678ed ; 
+         height: 260px ;
+         width: 200px ;
+         background-color:#7678ed;
+        color: white;
+        margin-top: 2px;       
+        }
+        .box7{
+          border: 1px solid  #ef476f;
+         height: 260px ;
+         width: 200px ;
+         background-color: blueviolet;
+        background: url('images.jpg') no-repeat center center/cover;
+        margin-top: 2px;
+        }
+        .box8{
+         border: 1px solid #008000 ; 
+         height: 260px ;
+         width: 200px ;
+         background-color:#008000;
+        color: white;
+        margin-top: 2px;
+        }
+        .box9{
+          border: 1px solid  #ef476f;
+         height: 260px ;
+         width: 200px ;
+         background-color: blueviolet;
+        background: url('aston.jpeg') no-repeat center center/cover;
+        margin-top: 2px;
+        margin-left: 23px ;
+        }
+        .box10{
+         border: 1px solid #3f37c9 ; 
+         height: 260px ;
+         width: 200px ;
+         background-color:#3f37c9;
+        color: white;
+        margin-top: 2px;
+        }
+        .box11{
+          border: 1px solid #3f37c9 ; 
+          height: 260px ;
+          width: 200px ;
+          background-color:#3f37c9;
+         color: white;
+         margin-top: 2px;
+         margin-left: 30px ;
+         background: url('buga.jpg') no-repeat center center/cover;
+         }
+         .box12{
+           border: 1px solid #3f37c9 ; 
+           height: 260px ;
+           width: 200px ;
+           background-color:#235789;
+          color: white;
+          margin-top: 2px;
+          }    
+          .header{
+            background: url('https://images.pexels.com/photos/19597726/pexels-photo-19597726/free-photo-of-white-mercedes-g-class.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+          }
+        ul{
+          display: flex;
+          flex-direction: row;         
+        }
+         li button{
+          background-color: red;
+          color: white;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          width: 70px ;        
+          font-size: 20px ;
+          border: 1px solid red;
+          border-radius: 7px ;
+          position: absolute;
+          right: 1%;
+        }
+        li button:hover{
+          background-color: yellow;
+          color: black;
+        }
+        li{
+          list-style: none;
+          margin: 10px 50px 2px 34px ;
+          padding: 3px 3px 3px 3px ;
+          font-size: 20px ;
+        }
+        a{
+          text-decoration: none;
+          color: white;
+        }
+        .input input{
+          background-color: white;
+          color: black;
+          border: 1px solid black;
+          border-radius: 5px ;
+          width: 58% ;
+          height: 27px ;
+          margin-left: 17%;
+          margin-top: 2px;
+          padding: 3px 3px 3px 3px ;
+          }
+         .key {
+          border: 5px solid red;
+          background-color: red;
+          color: white;
+          display: block;
+          width: 30%;
+          margin-left: 34%;
+        transform: translateY(6%);
+        border-radius: 5px ;
+        padding: 3px 3px 3px 3px ;
+        font-size: 22px;
+        }
+         li .boy{
+          position: absolute;
+          left: 0%;
+          top: -1%;
+          width: 80px;
+          height: 70px;       
+        }
+        a:hover{
+          text-decoration: underline;
+          background-color: yellow;
+          color: black;
+        }
+        .h1{
+          margin-top: 20% ;
+        text-align: center;
+          /* text-align: center; */
+          color: #1765da;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .girl{
+          color:yellow;
+        }
+        .fa-angle-down{
+        position: absolute;
+        left: 74%;
+          margin-top: 8px;
+          color: black;
+        }
+        .h2{
+          margin: 29px 3px 5px 5px ;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          border: 1px solid rgb(12, 8, 8);
+           height: 200px ; 
+          padding: 5px 3px 5px 5px ;
+          line-height: 2;
+
+          animation: shuvo 1s 1;
+          color: white;
+          background: url('https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-black-super-car-png-image_11921537.png') no-repeat center center/cover;
+        }
+        @keyframes shuvo {
+          /* 0%{
+            transform: translateX(6%);
+          } */
+         40%{
+            transform: translateX(-6%);
+          }
+        }
+        .bro{
+          color:white;
+        border-radius: 5px ;       
+        font-size: 20px ;       
+        display: block;
+        margin: 20px auto;
+        }
+        .bro button{
+          background-color: red;
+          color:black;
+          border-radius: 6px ;
+           border: 1px solid red; 
+          font-size: 20px ;
+          height: 40px;
+          width: 25%;
+          display: block;
+          margin: 20px auto;
+          }
+          .blue{
+            display: flex;
+            flex-direction: row;
+          }
+          .h3{
+            color: black;
+            text-align: center;
+            /* border: 2px solid red; */
+            padding: 10px 5px 5px 5px ;
+            height: 50px ;
+            font-size: 25px ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          background: url('https://static8.depositphotos.com/1517439/989/i/600/depositphotos_9897298-stock-photo-news-icon.jpg') no-repeat center center/cover;
+          }
+          .news{
+            margin-top: 5px;
+            border: 1px solid rgb(119, 170, 77);
+            height: 170px ;
+            border-radius: 5px ;         
+          }
+          .h5{
+            font-size: 17px ;
+            color:white ;
+            margin: 3px 3px 3px 3px ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          text-shadow: #ff7f11;
+          }
+          .white{
+            color:white ;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+          .yellow{
+          background-color: blueviolet;
+          color: white;
+          font-size: 17px ;
+          border: 1px solid blueviolet;
+          border-radius: 5px;
+          margin-left: 4px ;
+          margin-top: 3px ;
+          padding: 2px 2px 2px 2px;
+          }
+          .view img{
+            border-radius: 5px ;
+            width: 129px;
+            height: 70px;
+            position: absolute;
+            left: 55%;
+          transform: translateY(-38%); 
+          }
+          .view{
+            margin-top: 5px;
+            border: 1px solid rgb(119, 170, 77);
+            height: 170px ;
+            border-radius: 5px ;
+          }
+          .news img{
+            border-radius: 5px ;
+            width: 129px;
+            height: 67px;
+            position: absolute;
+            left: 20.5%;
+          transform: translateY(-6%);
+          }
+          .tie{
+            margin-top: 5px;
+            border: 1px solid rgb(119, 170, 77);
+            height: 170px ;
+            border-radius: 5px ;
+          }
+          .tie img{
+            border-radius: 5px ;
+            width: 129px;
+            height: 67px;
+            position: absolute;
+            right: 0.3%;
+          transform: translateY(-35%);         
+          }
+          .view{
+            margin: 5px 2px 2px 2px;
+          }
+          .news{
+            margin: 5px 2px 2px 2px;
+          }
+          .tie{
+            margin: 5px 2px 2px 2px;
+          }
+          footer{
+            margin-top: 12px;
+      
+          height: 480px ;
+          }
+          .mid{
+            display: flex;
+            flex-direction: row;         
+          }       
+         .box20{
+            border: 2px solid white;
+            height: 390px ;
+            width: 315px ;
+            background-color: blanchedalmond;         
+          }
+          .box21{
+            border: 1px solid rgb(37, 22, 22);
+            height: 390px ;
+            width: 315px ;
+            background-color: black;         
+          }
+          .box22{
+            border: 1px solid rgb(37, 22, 22);
+            height: 390px ;
+            width: 315px ;
+            background-color: black;       
+          }
+          .box23{
+            border: 1px solid rgb(37, 22, 22);
+            height: 390px ;
+            width: 315px ;
+            background-color: black;    
+          }
+          .box24{
+            border: 1px solid rgb(37, 22, 22);
+            height: 390px ;
+            width: 315px ;
+            background-color: black;         
+          }
+        .blur{
+          color:white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 25px ;
+        margin-left: 10px ;
+        padding-top: 20px;
+        margin-top: 30%;
+        }
+        .student{
+          color: white;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          margin-left: 7px ;
+          padding-top: 20px ;
+        font-size: 25px;
+        }
+        .enter{
+          margin-top: 9%;
+          margin-left: 2px ;
+        }
+        .enter input{
+         width: 95%;
+         height: 35px ;
+        border-radius:7px;
+        padding: 2px 2px 2px 2px ;
+        font-size: 17px;
+        }
+        .ent a{        
+          margin-top: 10px;         
+          margin-left: 6px;       
+          border-radius: 4px 
+        }     
+        .ent button{
+          background-color: #1765da;
+          color: white;
+          border-radius: 5px ;
+          border: 1px solid #1765da;
+         font-size: 20px;
+          margin-top: 2%;
+          margin-left: 39%;
+        padding: 5px 5px 5px 5px;
+        }
+        .blu{
+          color: white;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 20px ;
+          margin-left: 10px ;
+          padding-top: 19px ;          
+        }
+        .dowee a{
+          color: white;
+          margin-left: 8px ;
+          font-size: 20px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          line-height: 2;
+          text-decoration: underline;
+        }
+        .dowe a{
+          color: white;
+          margin-left: 8px ;
+          font-size: 18px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          line-height: 1.9;
+          text-decoration: underline;
+        }
+        .h6{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: white;
+          font-size: 17px;
+          margin: 3px 3px 3px 10px;
+        }
+
+
+
+
+
+
+        }
+      }
+.container{
+  border: 1px solid  #14213d;
+animation: rotate 1s 1;
+}
+@keyframes rotate {
+  0% {
+    transform: scale(0.95);
+}
+100% {
+    transform: scale(1);
+} 
+  50% {
+    transform: translateY(-2%);
+}
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4px;
+}
+.box1{
+   border: 2px solid  #14213d ;
+  height: 260px ;
+  width: 200px ;
+  background-color: blueviolet;
+background: url('lambo.jpg') no-repeat center center/cover;
+filter:brightness(95%) ;
+}
+.box2{
+  border: 2px solid #14213d ; 
+  height: 260px ;
+  width: 200px ;
+  background-color:#14213d;
+color: white;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+margin-left: 3px;
+}
+body{
+height: 3600px ;
+}
+.but{
+  font-size: 18px ;
+  color: white;
+  background-color: red;
+  border: 1px solid red;
+  margin-top: 15px ;
+  padding: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+ .header{
+  background: url('https://images.pexels.com/photos/19597726/pexels-photo-19597726/free-photo-of-white-mercedes-g-class.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+} 
+ul{
+  display: flex;
+  flex-direction: row;
+ 
+ 
+}
+ li button{
+  background-color: red;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 50px ;
+  font-size: 17px ;
+  border: 1px solid red;
+  border-radius: 7px ;
+}
+li button:hover{
+  background-color: yellow;
+  color: black;
+}
+li{
+  list-style: none;
+  margin: 10px 2px 2px 34px ;
+  padding: 3px 3px 3px 3px ;
+  font-size: 17px ;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+.input input{
+background-color: white;
+color: black;
+border: 1px solid black;
+border-radius: 5px ;
+width: 58% ;
+height: 27px ;
+margin-left: 17%;
+margin-top: 2px;
+padding: 3px 3px 3px 3px ;
+}
+.down{
+  color: yellow;
+  font-size: 18px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px 10px 10px 10px ;
+  text-align: center;
+  font-weight: bold;
+}
+ .key {
+  border: 5px solid red;
+  background-color: red;
+  color: white;
+  display: block;
+  width: 30%;
+  margin-left: 33%;
+transform: translateY(6%);
+border-radius: 5px ;
+padding: 3px 3px 3px 3px ;
+}
+.key:hover{
+  background-color: rgb(207, 47, 47);
+}
+ li .boy{
+  position: absolute;
+  left: 0%;
+  top: -1%;
+  width: 67px;
+  height: 54px;
+
+}
+.h1{
+  margin-top: 26% ;
+text-align: center;
+  /* text-align: center; */
+  color: #1765da;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.girl{
+  color:yellow;
+}
+.fa-angle-down{
+position: absolute;
+left: 72%;
+  margin-top: 8px;
+}
+.box3{
+  border: 1px solid  #ef476f;
+ height: 260px ;
+ width: 200px ;
+ background-color: blueviolet;
+background: url('ferari.jpg') no-repeat center center/cover;
+margin-top: 2px;
+filter:brightness(95%) ;
+}
+.box4{
+ border: 1px solid #ef476f ; 
+ height: 260px ;
+ width: 200px ;
+ background-color:#ef476f;
+color: white;
+margin-top: 2px;
+}
+.box5{
+  border: 1px solid  #ef476f;
+ height: 260px ;
+ width: 200px ;
+ background-color: blueviolet;
+background: url('car-8328373_640.jpg') no-repeat center center/cover;
+margin-top: 2px;
+}
+.box6{
+ border: 1px solid #7678ed ; 
+ height: 260px ;
+ width: 200px ;
+ background-color:#7678ed;
+color: white;
+margin-top: 2px;
+}
+span{
+margin-left: 5px;
+
+}
+.box7{
+  border: 1px solid  #ef476f;
+ height: 260px ;
+ width: 200px ;
+ background-color: blueviolet;
+background: url('images.jpg') no-repeat center center/cover;
+margin-top: 2px;
+}
+.box8{
+ border: 1px solid #008000 ; 
+ height: 260px ;
+ width: 200px ;
+ background-color:#008000;
+color: white;
+margin-top: 2px;
+}
+.box9{
+  border: 1px solid  #ef476f;
+ height: 260px ;
+ width: 200px ;
+ background-color: blueviolet;
+background: url('aston.jpeg') no-repeat center center/cover;
+margin-top: 2px;
+}
+.box10{
+ border: 1px solid #3f37c9 ; 
+ height: 260px ;
+ width: 200px ;
+ background-color:#3f37c9;
+color: white;
+margin-top: 2px;
+}
+.conta{
+ border: 2px solid red;
+ animation: rotate 1s 1;
+}
+.box11{
+ border: 1px solid #3f37c9 ; 
+ height: 260px ;
+ width: 200px ;
+ background-color:#3f37c9;
+color: white;
+margin-top: 2px;
+background: url('buga.jpg') no-repeat center center/cover;
+}
+.box12{
+  border: 1px solid #3f37c9 ; 
+  height: 260px ;
+  width: 200px ;
+  background-color:#235789;
+ color: white;
+ margin-top: 2px;
+ }
+ .box13{
+  border: 1px solid #3f37c9 ; 
+  height: 260px ;
+  width: 200px ;
+  background-color:#3f37c9;
+ color: white;
+ margin-top: 2px;
+ background: url('bo.jpeg') no-repeat center center/cover;
+ }
+ .box14{
+   border: 1px solid #3f37c9 ; 
+   height: 260px ;
+   width: 200px ;
+   background-color:#ff7f11;
+  color: white;
+  margin-top: 2px;
+  }
+.con{
+  border: 1px solid red;
+  animation: rotate 1s 1;
+}
+.h2{
+  margin: 19px 3px 5px 5px ;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 2px solid red; */
+  height: 100px ;
+  padding: 5px 3px 5px 5px ;
+  line-height: 2;
+  animation: shuvo 1s 1;
+  color: white;
+  background: url('https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-black-super-car-png-image_11921537.png') no-repeat center center/cover;
+}
+@keyframes shuvo {
+ 40%{
+    transform: translateX(-6%);
+  }
+}
+.bro{
+  color:white;
+border-radius: 5px ;
+font-size: 20px ;
+display: block;
+margin: 20px auto;
+}
+.bro button{
+  background-color: yellow;
+  color:pink;
+  border-radius: 6px ;
+   border: 1px solid red; 
+  font-size: 20px ;
+  height: 40px;
+  width: 25%;
+  display: block;
+  margin: 20px auto;
+  }
+.h3{
+  color: black;
+  text-align: center;
+  /* border: 2px solid red; */
+  padding: 10px 5px 5px 5px ;
+  height: 50px ;
+  font-size: 25px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background: url('https://static8.depositphotos.com/1517439/989/i/600/depositphotos_9897298-stock-photo-news-icon.jpg') no-repeat center center/cover;
+}
+.news{
+  margin-top: 5px;
+  border: 1px solid rgb(119, 170, 77);
+  height: 170px ;
+  border-radius: 5px ;
+  background-color: rgb(119, 170, 77);
+ 
+  /* background: url('https://hips.hearstapps.com/hmg-prod/images/2022-mercedes-benz-eqs-102-1627066755.jpg?crop=0.853xw:0.639xh;0.00481xw,0.272xh&resize=1200:*') no-repeat center center/cover; */
+}
+.h5{
+  font-size: 17px ;
+  color:white ;
+  margin: 3px 3px 3px 3px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: #ff7f11;
+}
+.white{
+  color:white ;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.yellow{
+background-color: blueviolet;
+color: white;
+font-size: 17px ;
+border: 2px solid blueviolet;
+border-radius: 5px;
+margin-left: 4px ;
+margin-top: 3px ;
+padding: 2px 2px 2px 2px;
+}
+.view img{
+  border-radius: 5px ;
+  width: 129px;
+  height: 70px;
+  position: absolute;
+  right: 1%;
+transform: translateY(-38%);
+}
+.view{
+  margin-top: 5px;
+  border: 1px solid rgb(119, 170, 77);
+  height: 170px ;
+  border-radius: 5px ;
+  background-color: rgb(119, 170, 77);
+}
+.news img{
+  border-radius: 5px ;
+  width: 129px;
+  height: 67px;
+  position: absolute;
+  right: 1%;
+transform: translateY(-6%);
+}
+.tie{
+  margin-top: 5px;
+  border: 1px solid rgb(119, 170, 77);
+  height: 170px ;
+  border-radius: 5px ;
+  background-color: rgb(119, 170, 77);
+}
+.tie img{
+  border-radius: 5px ;
+  width: 129px;
+  height: 67px;
+  position: absolute;
+  right: 1%;
+transform: translateY(-35%);
+}
+.news.tie.view{
+  margin: 2px 2px 2px 2px;
+}
+footer{
+  margin-top: 12px;
+
+height: 450px ;
+}
+.mid{
+}
+.left-side{
+  display: flex;
+  flex-direction: row;
+}
+.rigth-side{
+  display: flex;
+  flex-direction: row;
+  
+}
+.box21{
+  border: 1px solid rgb(37, 22, 22);
+  height: 250px ;
+  width: 200px ;
+}
+.box22{
+  border: 1px solid rgb(37, 22, 22);
+  height: 250px ;
+  width: 200px ;
+}
+.box23{
+  border: 1px solid rgb(37, 22, 22);
+  height: 250px ;
+  width: 200px ;
+}
+.box24{
+  border: 1px solid rgb(37, 22, 22);
+  height: 250px ;
+  width: 200px ;
+}
+.blur{
+  color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 22px ;
+margin-left: 10px ;
+padding-top: 10px ;
+}
+.student{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 7px ;
+  padding-top: 7px ;
+font-size: 22px;
+}
+.enter{
+  margin-top: 15px ;
+  margin-left: 2px ;
+}
+.enter input{
+ width: 95%;
+ height: 35px ;
+border-radius:7px;
+padding: 2px 2px 2px 2px ;
+font-size: 17px;
+}
+.ent a{
+margin-top: 10px;
+  margin-left: 6px;
+  border-radius: 4px 
+}
+.ent button{
+  background-color: #1765da;
+  color: white;
+  border-radius: 4px ;
+  border: 1px solid #1765da;
+ font-size: 20px;
+  margin-top: 6px;
+  margin-left: 31%;
+padding: 5px 5px 5px 5px;
+}
+.blu{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px ;
+  margin-left: 10px ;
+  padding-top: 19px ; 
+}
+.dowee a{
+  color: white;
+  margin-left: 8px ;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2;
+  text-decoration: underline;
+}
+.dowe a{
+  color: white;
+  margin-left: 8px ;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.9;
+  text-decoration: underline;
+}
+.h6{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 17px;
+  margin: 3px 3px 3px 10px;
+}
+.icon button{
+  width: 50px ;
+  height: 50px ;
+  border-radius: 50%;
+  border: 1px solid rgb(241, 220, 220);
+  margin-top: 8px;
+  margin-left: 7px;
+}
+.fa-facebook{
+  font-size: 40px;
+  color: blueviolet;
+}
+.fa-facebook:hover{
+ color: blue;
+}
+.fa-twitter{
+  font-size: 40px;
+  color: blueviolet;
+}
+.fa-twitter:hover{
+ color: blue;
+}
+.fa-linkedin{
+  font-size: 40px;
+  color: blueviolet;
+}
+.fa-linkedin:hover{
+ color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
